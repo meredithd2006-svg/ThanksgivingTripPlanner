@@ -1,0 +1,11 @@
+item = input("Enter item name: ")
+price = float(input("Enter item price: "))
+quantity = int(input("Enter quantity: "))
+budget = float(input("Enter your budget: "))
+
+total_cost = price * quantity
+remaining = budget - total_cost
+
+print("\nItem: " + item + " x " + str(quantity))
+print("Total cost: $" + str(total_cost))
+print("Remaining budget: $" + str(remaining))
