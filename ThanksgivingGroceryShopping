@@ -1,0 +1,11 @@
+item = input("Enter thanksgiving item: ")
+store = input("Enter store name: ")
+shop_time = float(input("Time to shop (minutes): "))
+drive_time = float(input("Drive time to store (minutes): "))
+
+total_time = shop_time + drive_time
+hours = total_time / 60
+
+print("\nItem: " + item + " at " + store)
+print("Total trip time: " + str(total_time) + " minutes")
+print("That's " + str(round(hours, 2)) + " hours for this item!")
